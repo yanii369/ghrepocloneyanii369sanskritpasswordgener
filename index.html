@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanskrit Password Generator</title>
+
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="QwwoG018-41tOutzxgeYtpDoW1jXc4Od5f7iyvO5QRA" />
+
+    <!-- Bing Site Verification -->
+    <meta name="msvalidate.01" content="C44EDC4C5A90286F887BCFF687DB431D" />
+    
+    <meta name="description" content="Generate secure, 128-bit entropy passwords using authentic Sanskrit words with multi-language meanings and dark mode." />
+    <meta name="author" content="Yanesh Chari" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://charipasswordgenerator.netlify.app/" />
+    <meta property="og:title" content="Sanskrit Password Generator - Pro" />
+    <meta property="og:description" content="Generate secure, 128-bit entropy passwords using authentic Sanskrit words with multi-language meanings and dark mode." />
+    <meta property="og:image" content="https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://placehold.co/1200x630/10b981/ffffff?text=Sanskrit+Password+Generator" />
+    <meta property="og:image:alt" content="Screenshot of the Sanskrit Password Generator" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://charipasswordgenerator.netlify.app/" />
+    <meta name="twitter:title" content="Sanskrit Password Generator - Pro" />
+    <meta name="twitter:description" content="Generate secure, 128-bit entropy passwords using authentic Sanskrit words with multi-language meanings and dark mode." />
+    <meta name="twitter:image" content="https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://placehold.co/1200x630/10b981/ffffff?text=Sanskrit+Password+Generator" />
+
+    <script>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+
+     <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Sanskrit Password Generator",
+      "url": "https://charipasswordgenerator.netlify.app/",
+      "description": "Generate secure passwords using Sanskrit words with built-in dictionary integration",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Yanesh Chari"
+      }
+    }
+    </script>
+
+  </head>
+  <body>
+    <div id="root">
+      <!-- Pre-rendered content for SEO and non-JS users -->
+      <div style="padding: 2rem; text-align: center; font-family: sans-serif;">
+        <h1>Sanskrit Password Generator</h1>
+        <p>Loading the secure password generation tool...</p>
+        <p>Generate strong, memorable passwords using authentic Sanskrit words.</p>
+      </div>
+      <noscript>
+        <h1>Sanskrit Password Generator</h1>
+        <p>This website requires JavaScript to function. Please enable JavaScript in your browser to use this secure password generation tool.</p>
+      </noscript>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
